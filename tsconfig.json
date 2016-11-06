@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [],
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./build"    
+    },
+    "files": [
+        "./dt/chai-spies/index.d.ts",
+        "./dt/redux-act/index.d.ts",
+        "./test/createAction.test.ts",
+        "./test/createReducer.test.ts",
+        "./test/assignAll.test.ts",
+        "./test/batch.test.ts",
+        "./test/bindAll.test.ts",
+        "./test/disbatch.test.ts",
+        "./test/readme.test.ts",
+        "./test/types.test.ts",
+        "./dt/redux-act/redux-act-tests.ts"
+    ]
+}
