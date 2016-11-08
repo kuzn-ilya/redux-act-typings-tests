@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^3.4.34",
+    "@types/chai-spies": "0.0.0",
     "@types/mocha": "^2.2.32",
     "@types/redux": "^3.6.31",
     "@types/redux-thunk": "^2.1.31",
